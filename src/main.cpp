@@ -34,9 +34,8 @@ void setup() {
   SensESPAppBuilder builder;
   sensesp_app = (&builder)
                     ->set_hostname("Light-Inside-Relays")
-                    ->set_wifi_client("Obelix", "obelix2idefix")
-                    ->enable_ota("SomeOTAPassword")
-                    ->enable_uptime_sensor()
+                    ->enable_ota("LilleMyOTAPassword")
+  //                  ->enable_uptime_sensor()
                     ->get_app();
 
   // GPIO configuration:
